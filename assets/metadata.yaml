@@ -1,0 +1,28 @@
+---
+title: "Теория Эмерджентного Предиктивного Опыта (ТЭПО): Интегративная Философия Сознания"
+author: "Копнин А.В."
+date: "Апрель 2025"
+# --- Библиография и Цитаты ---
+bibliography: assets/references.bib       # Указывает на файл с библиографией
+csl: assets/csl/chicago-author-date.csl # Указывает на файл стиля цитирования (пример)
+link-citations: true             # Делает цитаты в тексте кликабельными (ссылками на библиографию)
+# --- Настройки Документа ---
+lang: ru-RU                      # Устанавливает язык документа (важно для LaTeX и типографики)
+documentclass: article           # Класс документа LaTeX (article, report, book)
+fontsize: 11pt                   # Размер шрифта основного текста (можно 10pt, 11pt, 12pt для article)
+geometry: "a4paper, margin=2.5cm" # Задает размер бумаги и поля
+# --- Настройки Оглавления ---
+toc: true                        # Включить автоматическое оглавление
+toc-depth: 2                     # Глубина оглавления (1 - только #, 2 - ##, 3 - ###)
+# --- Настройки PDF (через LaTeX) ---
+# pdf-engine: xelatex            # Можно указать здесь или в команде Pandoc
+# --- Настройки PDF (через LaTeX/XeLaTeX) ---
+mainfont: "DejaVu Serif"
+sansfont: "DejaVu Sans"
+monofont: "DejaVu Sans Mono"
+# Указываем язык для polyglossia (рекомендуется для XeLaTeX)
+polyglossia-lang:
+  main: russian
+  other: english
+# --- Конец Метаданных ---
+...
